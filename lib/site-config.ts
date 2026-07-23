@@ -72,11 +72,11 @@ export const siteConfig = {
   // BUSINESS IDENTITY
   // ------------------------------------------------------------------
   business: {
-    name: "Farmgate Café & Co.",
+    name: "Farmgate Café & Co. | Demo",
     shortName: "Farmgate",
     tagline: "Slow mornings, honest food.",
     description:
-      "A boutique neighbourhood café in Clyde, Victoria, serving specialty coffee, seasonal brunch, and community warmth since day one. Farmgate Café & Co. is a gathering place for locals — where the coffee is roasted with care and every plate is made from scratch.",
+      "A boutique neighbourhood café in Clyde, Victoria, serving specialty coffee, seasonal brunch, and community warmth since day one. Farmgate Café & Co. | Demo is a gathering place for locals — where the coffee is roasted with care and every plate is made from scratch.",
     type: "Café",
     foundedYear: 2021,
     priceRange: "$$",
@@ -159,8 +159,8 @@ export const siteConfig = {
   // ------------------------------------------------------------------
   seo: {
     siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://www.farmgatecafe.com.au",
-    defaultTitle: "Farmgate Café & Co. | Boutique Café in Clyde, VIC",
-    titleTemplate: "%s | Farmgate Café & Co.",
+    defaultTitle: "Farmgate Café & Co. | Demo | Boutique Café in Clyde, VIC",
+    titleTemplate: "%s | Farmgate Café & Co. | Demo",
     defaultDescription:
       "Specialty coffee, seasonal brunch, and a warm neighbourhood welcome in Clyde, VIC. Order click & collect, browse the menu, or drop by 7/5 Riverland Road.",
     keywords: [

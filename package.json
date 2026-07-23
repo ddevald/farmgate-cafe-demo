@@ -2,7 +2,7 @@
   "name": "farmgate-cafe",
   "version": "1.0.0",
   "private": true,
-  "description": "Concept website demonstrating a modern online presence for Farmgate Café & Co.",
+  "description": "Concept website demonstrating a modern online presence for Farmgate Café & Co. | Demo",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
