@@ -13,7 +13,7 @@ export function InstagramFeed() {
         <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
           <SectionHeading
             eyebrow="Follow Along"
-            title="Life at Farmgate"
+            title="Life at Farmgate Café & Co. | Demo"
             description={`Tag us ${instagram.handle} for a chance to be featured.`}
           />
           <a

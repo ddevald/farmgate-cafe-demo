@@ -10,7 +10,7 @@ import { dietaryLabels } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Menu",
   description:
-    "Browse the full Farmgate Café menu — coffee, cold drinks, breakfast, lunch, kids' plates, and desserts. Order click & collect in Clyde, VIC.",
+    "Browse the full Farmgate Café & Co. | Demo Café menu — coffee, cold drinks, breakfast, lunch, kids' plates, and desserts. Order click & collect in Clyde, VIC.",
   alternates: { canonical: "/menu" },
   openGraph: {
     url: `${siteConfig.seo.siteUrl}/menu`,

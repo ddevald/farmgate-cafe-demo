@@ -1,7 +1,7 @@
-# Farmgate Café & Co. | Demo — Website Template
+# Farmgate Café & Co. | Demo Café & Co. | Demo — Website Template
 
 A production-ready website built with **Next.js 14 (App Router)**, **TypeScript**, and
-**Tailwind CSS** for boutique cafés and restaurants. Built for Farmgate Café & Co. | Demo
+**Tailwind CSS** for boutique cafés and restaurants. Built for Farmgate Café & Co. | Demo Café & Co. | Demo
 (Clyde, VIC) and designed to be re-skinned for other café/restaurant clients in minutes.
 
 ---
