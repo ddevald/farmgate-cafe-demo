@@ -126,6 +126,9 @@ export function Footer() {
             <Link href="/terms" className="hover:text-linen focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-linen rounded-sm">
               Terms of Service
             </Link>
+            <Link href="/packages" className="hover:text-strawberry focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-linen rounded-sm">
+              Website Packages
+            </Link>
           </div>
         </Container>
       </div>
