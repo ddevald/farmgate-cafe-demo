@@ -9,7 +9,7 @@ import { EventCard } from "@/components/events/EventCard";
 export const metadata: Metadata = {
   title: "Events",
   description:
-    "Community events at Farmgate Café & Co. | Demo Café & Co. | Demo — sip & paint nights, high teas, trivia, and workshops in Clyde, VIC.",
+    "Community events at Farmgate Café & Co. | Demo — sip & paint nights, high teas, trivia, and workshops in Clyde, VIC.",
   alternates: { canonical: "/events" },
   openGraph: {
     url: `${siteConfig.seo.siteUrl}/events`,
@@ -37,7 +37,7 @@ export default function EventsPage() {
             as="h1"
             eyebrow="Community"
             title="Upcoming Events"
-            description="From paint nights to barista workshops — Farmgate Café & Co. | Demo is more than a café, it's a gathering place. Bookings are made through our contact form."
+            description="From paint nights to barista workshops — Farmgate is more than a café, it's a gathering place. Bookings are made through our contact form."
             align="center"
             className="mx-auto"
           />

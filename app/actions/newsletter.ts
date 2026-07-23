@@ -30,5 +30,5 @@ export async function subscribeToNewsletter(
   // TODO: integrate with a real email service provider at deploy time.
   console.log(`[newsletter] New subscriber: ${email}`);
 
-  return { status: "success", message: "You're on the list — welcome to Farmgate Café & Co. | Demo!" };
+  return { status: "success", message: "You're on the list — welcome to Farmgate!" };
 }

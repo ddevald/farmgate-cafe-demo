@@ -82,7 +82,7 @@ export default function AboutPage() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-4xl shadow-soft">
             <Image
               src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=80&w=1000&auto=format&fit=crop"
-              alt="Café interior at Farmgate Café & Co. | Demo Café & Co. | Demo with warm natural light and timber furniture"
+              alt="Café interior at Farmgate Café & Co. | Demo with warm natural light and timber furniture"
               fill
               sizes="(min-width: 1024px) 40vw, 90vw"
               className="object-cover"

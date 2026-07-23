@@ -72,11 +72,11 @@ export const siteConfig = {
   // BUSINESS IDENTITY
   // ------------------------------------------------------------------
   business: {
-    name: "Farmgate Café & Co. | Demo Café & Co. | Demo",
-    shortName: "Farmgate Café & Co. | Demo",
+    name: "Farmgate Café & Co. | Demo",
+    shortName: "Farmgate Café | Demo",
     tagline: "Slow mornings, honest food.",
     description:
-      "A boutique neighbourhood café in Clyde, Victoria, serving specialty coffee, seasonal brunch, and community warmth since day one. Farmgate Café & Co. | Demo Café & Co. | Demo is a gathering place for locals — where the coffee is roasted with care and every plate is made from scratch.",
+      "A boutique neighbourhood café in Clyde, Victoria, serving specialty coffee, seasonal brunch, and community warmth since day one. Farmgate Café & Co. | Demo is a gathering place for locals — where the coffee is roasted with care and every plate is made from scratch.",
     type: "Café",
     foundedYear: 2021,
     priceRange: "$$",
@@ -89,7 +89,7 @@ export const siteConfig = {
   contact: {
     phone: "+61 3 9021 4477",
     phoneDisplay: "(03) 9021 4477",
-    email: "hello@Farmgate Café & Co. | Democafe.com.au",
+    email: "hello@farmgatecafe.com.au",
     address: {
       line1: "7/5 Riverland Road",
       suburb: "Clyde",
@@ -132,9 +132,9 @@ export const siteConfig = {
   // SOCIAL
   // ------------------------------------------------------------------
   social: {
-    instagram: "https://www.instagram.com/Farmgate Café & Co. | Democafe",
-    facebook: "https://www.facebook.com/Farmgate Café & Co. | Democafe",
-    tiktok: "https://www.tiktok.com/@Farmgate Café & Co. | Democafe",
+    instagram: "https://www.instagram.com/farmgatecafe",
+    facebook: "https://www.facebook.com/farmgatecafe",
+    tiktok: "https://www.tiktok.com/@farmgatecafe",
   },
 
   // ------------------------------------------------------------------
@@ -151,16 +151,16 @@ export const siteConfig = {
       display: "Playfair Display",
       body: "Inter",
     },
-    logoText: "Farmgate Café & Co. | Demo",
+    logoText: "Farmgate",
   },
 
   // ------------------------------------------------------------------
   // SEO
   // ------------------------------------------------------------------
   seo: {
-    siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://www.Farmgate Café & Co. | Democafe.com.au",
-    defaultTitle: "Farmgate Café & Co. | Demo Café & Co. | Demo | Boutique Café in Clyde, VIC",
-    titleTemplate: "%s | Farmgate Café & Co. | Demo Café & Co. | Demo",
+    siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://www.farmgatecafe.com.au",
+    defaultTitle: "Farmgate Café & Co. | Demo | Boutique Café in Clyde, VIC",
+    titleTemplate: "%s | Farmgate Café & Co. | Demo",
     defaultDescription:
       "Specialty coffee, seasonal brunch, and a warm neighbourhood welcome in Clyde, VIC. Order click & collect, browse the menu, or drop by 7/5 Riverland Road.",
     keywords: [
@@ -169,10 +169,10 @@ export const siteConfig = {
       "brunch Clyde Victoria",
       "best cafe near Clyde",
       "click and collect coffee Clyde",
-      "Farmgate Café & Co. | Demo Cafe",
+      "Farmgate Cafe",
     ],
     ogImage: "/images/og-cover.jpg",
-    twitterHandle: "@Farmgate Café & Co. | Democafe",
+    twitterHandle: "@farmgatecafe",
     locale: "en_AU",
   },
 
@@ -234,7 +234,7 @@ export const siteConfig = {
 
   menu: [
     // Coffee
-    { id: "c-01", name: "Farmgate Café & Co. | Demo Espresso", description: "Our house blend — chocolate, hazelnut, brown sugar.", price: 4.5, category: "coffee", dietary: [], popular: true },
+    { id: "c-01", name: "Farmgate Espresso", description: "Our house blend — chocolate, hazelnut, brown sugar.", price: 4.5, category: "coffee", dietary: [], popular: true },
     { id: "c-02", name: "Flat White", description: "Double ristretto, silky micro-foam.", price: 5.0, category: "coffee", dietary: [], featured: true, popular: true },
     { id: "c-03", name: "Cappuccino", description: "Classic ratio, dusted with cocoa.", price: 5.0, category: "coffee", dietary: [] },
     { id: "c-04", name: "Long Black", description: "Double shot over hot water.", price: 4.5, category: "coffee", dietary: ["DF"] },
@@ -248,7 +248,7 @@ export const siteConfig = {
     { id: "cd-04", name: "Mango Lassi", description: "Yoghurt, mango, cardamom.", price: 7.0, category: "cold-drinks", dietary: ["V", "GF"] },
 
     // Breakfast
-    { id: "b-01", name: "Farmgate Café & Co. | Demo Big Breakfast", description: "Eggs, bacon, mushroom, tomato, sourdough, hash brown.", price: 24.0, category: "breakfast", dietary: [], featured: true, popular: true },
+    { id: "b-01", name: "Farmgate Big Breakfast", description: "Eggs, bacon, mushroom, tomato, sourdough, hash brown.", price: 24.0, category: "breakfast", dietary: [], featured: true, popular: true },
     { id: "b-02", name: "Smashed Avo", description: "Whipped feta, chilli oil, poached eggs, seeded toast.", price: 21.0, category: "breakfast", dietary: ["V"], popular: true },
     { id: "b-03", name: "Buttermilk Pancakes", description: "Berry compote, mascarpone, maple.", price: 19.0, category: "breakfast", dietary: ["V"] },
     { id: "b-04", name: "Shakshuka", description: "Baked eggs in spiced tomato, feta, herb oil.", price: 22.0, category: "breakfast", dietary: ["V", "GF"] },
@@ -256,7 +256,7 @@ export const siteConfig = {
     { id: "b-06", name: "Acai Bowl", description: "Acai, banana, granola, fresh fruit.", price: 18.0, category: "breakfast", dietary: ["VG", "GF", "DF"] },
 
     // Lunch
-    { id: "l-01", name: "Farmgate Café & Co. | Demo Club Sandwich", description: "Chicken, bacon, avocado, aioli, triple-stacked.", price: 22.0, category: "lunch", dietary: [], featured: true },
+    { id: "l-01", name: "Farmgate Club Sandwich", description: "Chicken, bacon, avocado, aioli, triple-stacked.", price: 22.0, category: "lunch", dietary: [], featured: true },
     { id: "l-02", name: "Pumpkin & Feta Salad", description: "Quinoa, rocket, pepitas, pomegranate dressing.", price: 20.0, category: "lunch", dietary: ["V", "GF"], popular: true },
     { id: "l-03", name: "Reuben Toastie", description: "Pastrami, sauerkraut, Swiss, mustard mayo.", price: 19.0, category: "lunch", dietary: [] },
     { id: "l-04", name: "Soup of the Day", description: "Ask your barista — served with sourdough.", price: 14.0, category: "lunch", dietary: ["V"] },
@@ -372,14 +372,14 @@ export const siteConfig = {
   googleReviews: {
     rating: 4.9,
     reviewCount: 312,
-    profileUrl: "https://www.google.com/maps/search/?api=1&query=Farmgate Café & Co. | Demo+Cafe+Clyde+VIC",
+    profileUrl: "https://www.google.com/maps/search/?api=1&query=Farmgate+Cafe+Clyde+VIC",
   },
 
   // ------------------------------------------------------------------
   // INSTAGRAM (static preview grid — swap for live embed / API at deploy time)
   // ------------------------------------------------------------------
   instagram: {
-    handle: "@Farmgate Café & Co. | Democafe",
+    handle: "@farmgatecafe",
     posts: [
       { id: "ig-01", image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=600&auto=format&fit=crop", alt: "Latte art flat white on marble table" },
       { id: "ig-02", image: "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?q=80&w=600&auto=format&fit=crop", alt: "Smashed avocado brunch plate" },

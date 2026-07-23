@@ -14,7 +14,7 @@ export function EventsPreview() {
           <SectionHeading
             eyebrow="Community"
             title="Upcoming Events"
-            description="Sip & paint nights, seasonal celebrations, and workshops — all held right here at Farmgate Café & Co. | Demo."
+            description="Sip & paint nights, seasonal celebrations, and workshops — all held right here at Farmgate."
           />
           <Button href="/events" variant="outline" className="shrink-0">
             See All Events
